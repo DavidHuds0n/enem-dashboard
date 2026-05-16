@@ -7,7 +7,7 @@ visões analíticas.
 
 ## 🔗 Demo
 
-> Adicione aqui o link do Streamlit Cloud após o deploy
+[Enem - Dashboard](https://enem-dashboard-z5pa6gtgc3xrgvnsnf2tez.streamlit.app/)
 
 ## 🎯 Funcionalidades
 
@@ -46,11 +46,7 @@ venv\Scripts\activate  # Windows
 # 3. Instale as dependências
 pip install -r requirements.txt
 
-# 4. Adicione o banco de dados
-# Coloque o arquivo enem.db dentro da pasta data/
-# O banco pode ser gerado pelo projeto: github.com/DavidHuds0n/enem-banco-de-dados
-
-# 5. Rode o dashboard
+# 4. Rode o dashboard
 streamlit run app.py
 ```
 
@@ -58,7 +54,7 @@ streamlit run app.py
 ```
 enem-dashboard/
 ├── data/
-│   └── enem.db        # Banco SQLite (não incluído — ver instruções acima)
+│   └── enem.db        # Banco SQLite com os dados do ENEM
 ├── app.py             # Aplicação principal
 ├── requirements.txt
 └── README.md
