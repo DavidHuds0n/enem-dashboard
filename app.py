@@ -217,6 +217,7 @@ with aba4:
     
     with col_e:
         # Matriz de Correlação
+        st.markdown("**Matriz de Correlação**")
         notas_cols = ['score_languages', 'score_math', 'score_human', 'score_natural', 'score_essay']
         nomes_bonitos = ['Linguagens', 'Matemática', 'Humanas', 'Natureza', 'Redação']
         
